@@ -160,7 +160,7 @@ fun GreetingPreview() {
 @Composable 
 fun WebViewScreen() {
     // CHANGE THIS TO TEST OUT WITH DIFFERENT URLS
-    var url by remember { mutableStateOf("https://jsbin.com/zikimemoro/edit?html,js,output") }
+    var url by remember { mutableStateOf("https://jsbin.com/zicekucani/1/edit?html,js,console") }
     var webView: WebView? = null
 
     Column(modifier = Modifier
